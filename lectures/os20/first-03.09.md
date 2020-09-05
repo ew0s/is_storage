@@ -59,7 +59,7 @@
 * Суть данной архитектуры заключалась в том, что **cpu** был связан с **ram**, **input**, **output** и **storage**.
 * Проблема **архитектуры Фон Неймана** заключалась в сложности параллельного выполнения программ, так как было сложно достичь синхронизации данных на входе и выходе
 
-![img](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wikiwand.com%2Fru%2F%25D0%2590%25D1%2580%25D1%2585%25D0%25B8%25D1%2582%25D0%25B5%25D0%25BA%25D1%2582%25D1%2583%25D1%2580%25D0%25B0_%25D1%2584%25D0%25BE%25D0%25BD_%25D0%259D%25D0%25B5%25D0%25B9%25D0%25BC%25D0%25B0%25D0%25BD%25D0%25B0&psig=AOvVaw2kTOLJK_nXJtsjmyZtM7AD&ust=1599401151291000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNiDnuCX0usCFQAAAAAdAAAAABAD)
+![img](/lectures/os20/images/lecture1/fon_neyman.png)
 
 ### Задача - распараллелить поцессы, которые проходят через cpu
 ### Решение - программа диспетчер
@@ -80,7 +80,7 @@
 * Хранилище не гарантируют нам быстрый доступ к данным, из-за этого мы не знаем, когда кончится операция ввода-вывода
 * Оснавная проблема в том, что таким образом нам сложно синхронизировать параллельность разгрузки подгрузки памяти
 ### [Концепция spool](https://www.geeksforgeeks.org/what-exactly-spooling-is-all-about/)
-![spool scheme img](https://www.google.com/url?sa=i&url=https%3A%2F%2Fafteracademy.com%2Fblog%2Fwhat-is-spooling-in-operating-system&psig=AOvVaw03JGruQKHgwBu3YYbL5eTN&ust=1599403931498000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLDig4yi0usCFQAAAAAdAAAAABAI)
+![spool scheme img](/lectures/os20/images/lecture1/what-is-spooling-in-operating-system-example.png)
 * Добавили контроллер, который имеет мало возможностей, связь с **input**, **output**, **cpu** и **ram**
 * Этот контроллер передает сигнал процессору, который говорит, когда можно обрабатывать данные, а в какой момент программе нужно перйти в режим ожидания.
 #### В общем, этот контроллер прерывает ввод и вывод, что позволят обеспечить синхронность при параллельном выполнении программ

@@ -74,3 +74,5 @@
 * Подсистема пользовательского интерфейса
   * CommandLine interface
   * GUI - графический интерфейс пользователя
+
+![img](images/lecture3/LittleMan.gif)

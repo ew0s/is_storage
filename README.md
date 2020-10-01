@@ -1,6 +1,6 @@
 # is_storage
 ---
-##The repository where i will post some useful info from lectures at ITMO University
+## The repository where i will post some useful info from lectures at ITMO University
 ![gif_mine](imgs/littleBigPlanet.jpg)
 
 ## [Lectures](lectures)

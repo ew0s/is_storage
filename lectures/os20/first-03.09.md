@@ -14,7 +14,7 @@
   * Распределенные операционные систем, виртуальные машины, облачные хранилища.
 
 ## Литература
-* [Тоненбаум - современные операционные системы.](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjBnZiUvM_rAhVt-yoKHakdDywQFjAAegQIARAB&url=https%3A%2F%2Fwww.ss-20.ru%2Findex.php%3Faction%3Ddlattach%3Btopic%3D455.0%3Battach%3D2290&usg=AOvVaw3HLpFcrRpY3YUHx1ikAVVh)
+* [Таненбаум - современные операционные системы.](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjBnZiUvM_rAhVt-yoKHakdDywQFjAAegQIARAB&url=https%3A%2F%2Fwww.ss-20.ru%2Findex.php%3Faction%3Ddlattach%3Btopic%3D455.0%3Battach%3D2290&usg=AOvVaw3HLpFcrRpY3YUHx1ikAVVh)
 * [Дейтел - Операционные системы](https://www.studmed.ru/lorin-g-deytel-hm-operacionnye-sistemy-glavy-1-3_767af52fbb3.html)
   
 ## Лабораторный практикум
